@@ -1,0 +1,239 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+
+
+/* body */
+body {
+  font-family: 'Helvetica Neue';
+  height: 100%;
+  margin: 0;
+  
+}
+
+
+
+/* h1見出し */
+h1 {
+  color: #ffffee;/* フォントの色 */
+  font-size: 90px;/* フォントの大きさ */
+  font-family: lobster;/* フォントの種類 */
+  /*text-align: center;/* 文字・画像を中央にそろえる */
+  position: absolute;
+  left: 600px;
+  top: 300px;
+  
+  
+ 
+}
+
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-image: url(img/top.JPG);/* 背景画像 */
+  height: 600px;/* 高さ */
+  width:100%;
+  /*margin: 20px;*/
+  padding-top: 70px;/* 上がわの余白 */
+  background-repeat: no-repeat;/* 背景のくり返しをやめる */
+  /*background-position: top center;/* 背景の位置 */
+  background-position: 47% 30%;/* 背景の位置 */
+  
+}
+
+
+/* ナビゲーションの箱 */
+nav {
+  background-color:#deafde;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* リスト全体 */
+nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+/* １つ１つのリスト */
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+/* リンク */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* リンクにふれた時 */
+nav a:hover {
+  color:#b0c4de;
+}
+
+
+
+
+/* ===== お店紹介のスタイル ===== */
+/* セクション */
+.shop {
+  background-color:#b0c4de/* 背景の色 */
+  color: #ffc0cb;
+  padding: 10px;
+
+}
+
+/* h2見出し */
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+  border-color:#b0c4de;
+}
+
+.intro {
+  font-size: 20px;
+  
+  margin-bottom: 50px;
+}
+
+/* 段落 */
+.shop p {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  /*border-radius: 3px;*/
+  height: 250px;
+}
+
+/* 画像 */
+.shop img {
+  float: right;/* 画像や箱の回り込み */
+}
+
+
+/* ===== パン紹介のスタイル ===== */
+/* セクション */
+.photo {
+  padding: 100px;
+  background-image: url(img/はいけい.PNG);
+  height: 350px;
+}
+
+
+
+/* 大きな箱 */
+.prod {
+  position: absolute;
+  left:350px;
+  
+}
+
+.img1{
+
+  position: absolute;
+
+
+}
+
+.img2{
+
+  position: absolute;
+
+
+}
+
+.img3{
+
+  position: absolute;
+
+
+}
+
+.img4{
+
+  position: absolute;
+
+
+}
+
+.img5{
+
+  position: absolute;
+
+
+}
+
+.img6{
+
+  position: absolute;
+
+
+}
+
+.img7{
+
+  position: absolute;
+
+
+}
+
+.img8{
+
+  position: absolute;
+
+
+}
+
+.img9{
+
+  position: absolute;
+
+
+}
+
+.img10{
+
+  position: absolute;
+
+
+}
+
+
+.wrapper{
+  
+  position: fixed;
+  bottom: 10px; 
+  right: 10px;
+  padding: 6px 40px;
+
+}
+
+.return {
+  filter: drop-shadow(0px 0px 0px #666);
+}
+.return:hover {
+  filter: drop-shadow(5px 5px 10px #666);
+}
+
+
+
+
+
+
+
+
+
+/* フッター */
+footer {
+  text-align: center;
+  background-color: #deafde;
+  color: #ffffff;
+}
